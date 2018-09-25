@@ -1,0 +1,185 @@
+/*-------------*\
+	$CONTENTS
+\*-------------*/
+/**
+ * VARIABLES	
+ * ELEMENTS
+ * SEC--HEADER
+ * SEC--BANNER
+ * SEC--CORE
+ * BLK--NOTICES
+ * BLK--COMING-EV
+ * SEC--FOOTER
+ * BLK--PAGE-TITLE
+ * BLK--ARTICLE
+*/
+/*--------------*\
+	$VARIABLES
+\*--------------*/
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab");
+@import url("https://fonts.googleapis.com/css?family=Lora");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+/*---------------*\
+	$ELEMENTS
+\*---------------*/
+.container {
+  max-width: 1200px; }
+
+hr {
+  color: #555; }
+
+/*---------------*\
+	$SEC-HEADER
+\*---------------*/
+.ins-logo {
+  font-size: 30px;
+  font-family: 'Lora', serif;
+  font-weight: bold;
+  float: left;
+  margin-top: 20px;
+  color: #00581a; }
+
+.cu-logo {
+  float: right;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px; }
+
+.ge-logo {
+  float: right;
+  width: 40px;
+  margin-top: 2px;
+  margin-left: 5px; }
+
+/*---------------*\
+	$SEC-MENU
+\*---------------*/
+.sec-menu {
+  background: #00581a; }
+
+.sec-menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0; }
+
+.sec-menu ul li {
+  display: inline;
+  padding: 0;
+  margin: 0; }
+
+.sec-menu ul a {
+  color: white;
+  padding: 15px;
+  font-size: 14px;
+  float: left;
+  font-family: "Roboto Slab", serif; }
+
+.sec-menu ul a:hover {
+  text-decoration: none;
+  background: #009329; }
+
+/*---------------*\
+	$SEC-BANNER
+\*---------------*/
+.sec-banner {
+  height: 460px;
+  background-image: url("../images/bg.png");
+  background-size: cover;
+  background-position: center; }
+
+.banner-desc {
+  width: 100%;
+  height: 460px;
+  background-color: #291309;
+  opacity: 0.8; }
+
+.banner-title {
+  color: white;
+  padding: 10px 20px;
+  font-family: "Roboto Slab", serif;
+  margin-top: 40px;
+  font-size: 40px;
+  float: left; }
+
+.banner-sub-title {
+  color: #fce2a1;
+  font-family: "Roboto Slab Light", serif;
+  font-size: 18px;
+  padding: 10px 20px;
+  float: left; }
+
+.banner-more a {
+  color: white;
+  background: #00581a;
+  padding: 10px;
+  font-size: 16px;
+  font-family: "Roboto Slab Light", serif;
+  margin: 20px;
+  float: left; }
+
+.banner-more a:hover {
+  text-decoration: none;
+  background: #009329; }
+
+.pic-key {
+  width: 600px;
+  margin: 50px auto; }
+
+/*---------------*\
+	$SEC-QUICKLINKS
+\*---------------*/
+.sec-quicklinks {
+  padding-bottom: 50px;
+  text-align: center; }
+
+.sec_title {
+  color: #555;
+  font-family: "Roboto Slab", serif;
+  font-size: 22px;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto; }
+
+.abc {
+  border-top: #777 solid 3px;
+  border-bottom: #777 solid 3px;
+  margin: 40px 0;
+  padding: 20px 0;
+  text-align: center; }
+
+.ql-wrap {
+  border: #eee solid 1px;
+  background: linear-gradient(to bottom right, white 50%, #eee 50%);
+  width: 75%;
+  margin: 0 auto;
+  padding: 30px 0; }
+
+.qlicon-con, .qltitle-con {
+  width: 100%;
+  text-align: center;
+  padding: 10px 0; }
+
+.ql-icon {
+  color: #00581a;
+  font-size: 60px; }
+
+.ql-title {
+  color: #555;
+  font-family: "Roboto Slab", serif;
+  font-size: 16px;
+  width: 100%;
+  text-align: center; }
+
+/*---------------*\
+	$SEC-Footer
+\*---------------*/
+.sec-footer {
+  background-color: #f5f5f5; }
+
+.sec-footer p {
+  margin: 30px auto;
+  font-family: "Roboto Slab Light", serif;
+  text-align: center;
+  font-size: 14px; }
+
+/*# sourceMappingURL=general.css.map */
